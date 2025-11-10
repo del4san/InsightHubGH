@@ -1,0 +1,10 @@
+{
+  "[project]/src/components/MapStream.tsx [client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/components/MapStream.tsx [client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules_mapbox-gl_dist_mapbox-gl_06f19818.js",
+      "static/chunks/src_components_MapStream_tsx_97e72e88._.js",
+      "static/chunks/src_components_MapStream_tsx_ac5bf070._.js"
+    ]
+  }
+}

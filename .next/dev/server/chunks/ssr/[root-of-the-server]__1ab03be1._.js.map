@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Testing/InsightHubGH_V7/frontend/src/pages/index.tsx"],"sourcesContent":["// src/pages/index.tsx\nimport React from 'react';\nimport dynamic from 'next/dynamic';\n\nconst MapStream = dynamic(() => import('../components/MapStream'), { ssr: false });\n\nexport default function HomePage() {\n  return (\n    <main className=\"h-screen w-screen overflow-hidden\">\n      <MapStream />\n    </main>\n  );\n}"],"names":[],"mappings":"AAAA,sBAAsB;;;;;;AAEtB;;;;AAEA,MAAM,YAAY,IAAA,+IAAO,EAAC;;;;;;IAA2C,KAAK;;AAE3D,SAAS;IACtB,qBACE,qKAAC;QAAK,WAAU;kBACd,cAAA,qKAAC;;;;;;;;;;AAGP","debugId":null}}]
+}

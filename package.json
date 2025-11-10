@@ -1,0 +1,40 @@
+{
+  "name": "insighthubgh-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export:geojson": "ts-node scripts/exportGeoJSON.ts",
+    "export:csv": "ts-node scripts/exportCSV.ts",
+    "export:zip": "ts-node scripts/exportZIP.ts",
+    "sync:firebase": "ts-node scripts/syncFirebase.ts",
+    "test:stream": "ts-node scripts/testStream.ts"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-gl-draw": "^1.5.1",
+    "firebase": "^12.5.0",
+    "leaflet": "1.9.4",
+    "leaflet.markercluster": "1.5.3",
+    "mapbox-gl": "^2.15.0",
+    "next": "^16.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-leaflet": "4.2.1",
+    "react-markdown": "^10.1.0",
+    "zod": "3.22.4"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.21",
+    "@types/mapbox__mapbox-gl-draw": "^1.4.9",
+    "@types/mapbox-gl": "^3.4.1",
+    "@types/node": "20.6.0",
+    "@types/react": "18.2.21",
+    "eslint": "8.50.0",
+    "eslint-config-next": "13.4.19",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Testing/InsightHubGH_V7/frontend/src/pages/_app.tsx"],"sourcesContent":["import 'mapbox-gl/dist/mapbox-gl.css';\r\nimport type { AppProps } from 'next/app';\r\n\r\nexport default function MyApp({ Component, pageProps }: AppProps) {\r\n  return <Component {...pageProps} />;\r\n}"],"names":[],"mappings":";;;;;;;AAGe,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAY;IAC9D,qBAAO,qKAAC;QAAW,GAAG,SAAS;;;;;;AACjC","debugId":null}}]
+}
